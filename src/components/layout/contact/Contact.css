@@ -1,0 +1,30 @@
+.contactText{
+    color: rgb(44, 62, 80);
+}
+
+.starContact:before{
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid rgb(44, 62, 80);
+    bottom: 8px;
+    left: 56%;
+    width: 21%;
+  
+  }
+  
+  .starContact:after{
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid rgb(44, 62, 80);
+    bottom: 8px;
+    right: 56%;
+    width: 21%;
+  }
+
+  button{
+    background-color: #1abc9c !important;
+    color: white !important;
+  }
+  label{
+    color: #1abc9c !important;
+  }
